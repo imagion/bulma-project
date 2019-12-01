@@ -1,0 +1,30 @@
+{
+	"name": "bulma-project",
+	"description": "bulma starter project",
+	"version": "0.0.1",
+	"author": "imagion",
+	"license": "ISC",
+	"devDependencies": {
+		"browser-sync": "^2.26.7",
+		"cssnano": "^4.1.10",
+		"del": "^5.1.0",
+		"gulp": "^4.0.2",
+		"gulp-autoprefixer": "^7.0.1",
+		"gulp-clean-css": "^4.2.0",
+		"gulp-concat": "^2.6.1",
+		"gulp-cssimport": "^7.0.0",
+		"gulp-newer": "^1.4.0",
+		"gulp-plumber": "^1.2.1",
+		"gulp-postcss": "^8.0.0",
+		"gulp-rename": "^1.4.0",
+		"gulp-responsive": "^3.0.1",
+		"gulp-rsync": "0.0.8",
+		"gulp-sass": "^4.0.2",
+		"gulp-uglify": "^3.0.2",
+		"gulp-uglify-es": "^2.0.0",
+		"postcss-color-function": "^4.1.0",
+		"postcss-easy-import": "^3.0.0",
+		"postcss-preset-env": "^6.7.0",
+		"postcss-short": "^5.0.0"
+	}
+}

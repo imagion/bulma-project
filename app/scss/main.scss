@@ -1,0 +1,57 @@
+@import "import/fonts";
+@import "import/libs";
+@import "import/vars";
+
+
+::placeholder {
+	color: var(--grey);
+}
+
+::selection {
+	background-color: var(--accent);
+	color: var(--white);
+}
+
+body {
+	position: relative;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-family: var(--default-font);
+	font-size: 1.125rem;
+	line-height: 1.65;
+	background: var(--white);
+	input, textarea {
+		border: var(--grey) 1px solid;
+		outline: none;
+		&:focus:required:invalid {
+			border-color: red;
+		}
+		&:required:valid {
+			border-color: green;
+		}
+	}
+}
+
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.d-flex {
+	display: flex;
+}
+
+b, strong {
+	font-weight: bold
+}
+
+p {
+	size: 48px;
+}
+
+@import "import/media";
