@@ -1,0 +1,100 @@
+# Gulp
+node_modules
+
+# Sass
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# dotenv environment variables file
+.env
+.env.test
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+# Windows shortcuts
+*.lnk
+
+# VisualStudioCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Adobe files
+*.pdf
+*.ai
+*.psd
+*.indd
+*.indb
+
+# Type faces
+*.otf
+*.ttf
+*.woff
+*.eot
+*.ttc
+
+# Video & audio
+*.mov
+*.mp4
+*.m4v
+*.f4v
+*.f4p
+*.ogv
+*.webm
+*.flv
+*.mp3
+*.m4a
+*.f4a
+*.f4b
+*.oga
+*.ogg
+*.opus

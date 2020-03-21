@@ -1,0 +1,76 @@
+::placeholder {
+  color: $grey;
+}
+
+::selection {
+  background-color: $accent;
+  color: $white;
+}
+
+input,
+textarea {
+  outline: none;
+  &:focus:required:invalid { border-color: $red; }
+  &:required:valid { border-color: $green; }
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+  min-width: 320px;
+  font-family: $default-font;
+  font-size: 1.125rem;
+  line-height: 1.65;
+  background: $white;
+}
+
+b,
+strong {
+  font-weight: bold;
+  color: $grey-dark;
+}
+
+a {
+  text-decoration: none;
+  transition: all .3s ease-out;
+  color: $accent;
+
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: $grey-dark;
+  }
+
+  &:active {
+    color: $grey-darker;
+  }
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: robotomono, monospace;
+}
+
+.button {
+  background: $accent;
+  color: $white;
+  border-color: $accent;
+
+  &:hover,
+  &:focus {
+    color: $grey-lighter;
+    background-color: darken($accent, 3%);
+    border-color: darken($accent, 3%);
+    cursor: pointer;
+  }
+
+  &:active {
+    color: $white;
+  }
+}
+
+.img-responsive {
+  max-width: 100%;
+}
